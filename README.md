@@ -4,7 +4,7 @@
 ## Что нужно
 
 - Windows
-- Node.js 18+ (скачать LTS: https://nodejs.org — при установке оставить галочку «Add to PATH»)
+- Node.js 18+ (скачать LTS: https://nodejs.org - при установке оставить галочку «Add to PATH»)
 - Интернет один раз (скрипт сам поставит маленькую зависимость `classic-level`)
 
 ## Далее
@@ -28,12 +28,12 @@
 
 5. Готовые файлы появятся в `result\`:
 
-   - `antizapret_sites_plain.txt` — список построчно (`*.chatgpt.com`, ...)
+   - `antizapret_sites_plain.txt` - список построчно (`*.chatgpt.com`, ...)
    
-   - `antizapret_hosts.json` — тот же список в формате
+   - `antizapret_hosts.json` - тот же список в формате
      `{host, scope:"domain", enabled:true, mode:"proxy"}` - для импорта в расширение от https://github.com/aVitomin/runet-censorship-bypass
    
-   - `pac_mods_full.json` — полная копия всех настроек: свойства прокси
+   - `pac_mods_full.json` - полная копия всех настроек: свойства прокси
      (`customProxyStringRaw`), флаги, домены `moreDomains`.
 
 ## На заметку
